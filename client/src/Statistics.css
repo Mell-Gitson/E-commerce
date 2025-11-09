@@ -1,0 +1,64 @@
+.shipment-container {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: -20px;
+  margin-right: -18px;
+  margin-bottom: -20px;
+  background-color: #323632;
+  gap: 20px; 
+}
+
+
+.shipment-table {
+  width: 48%; 
+}
+
+
+.shipment-table h2 {
+  text-align: center;
+  
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+.shipment-list {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+
+.shipment-item {
+  background-color: #f7f7f7;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.whitelist {
+  background-color: #ccffcc; 
+}
+
+
+.blacklist {
+  background-color: #ffcccc; 
+}
+
+.blacki{
+  background-color: #f62525cd;
+}
+.whithi{
+  background-color: #1eea4acd;
+}
+
+/* Détails de chaque élément */
+.shipment-detail {
+  margin-bottom: 8px;
+  font-size: 16px;
+}

@@ -1,0 +1,51 @@
+.article-card {
+    position: relative;
+    border: none;
+  }
+  
+  .article-card::before, .article-card::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 1px solid gray;
+    transition: all 1s ease-in-out;
+    
+  }
+
+.article-card:hover .hover-effect {
+
+  @apply  text-white ;
+  
+
+}
+  
+  .article-card::before {
+  
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    
+  }
+  
+  .article-card::after {
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0%;
+    opacity: 50%;
+  }
+  
+  .article-card:hover::before {
+    height: 100%;
+    right: 100%;
+  }
+  
+  .article-card:hover::after {
+    width: 100%;
+    opacity: 50%;
+
+  }
+
+ 

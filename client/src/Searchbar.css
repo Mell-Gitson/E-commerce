@@ -1,0 +1,49 @@
+.search-container {
+    padding: 10px;
+    margin: auto;
+    position: relative;
+    margin-top: 10vh;
+
+  }
+  
+  .search-label {
+    margin-right: 10px;
+    font-size: 14px;
+    height: 10px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .search-input,
+  .search-select {
+    padding: 2px;
+    margin: 10px 0;
+    flex: auto;
+    border-radius: 5px;
+    background-color: #bbbbbb;
+    color: black;
+    margin: auto;
+    justify-content: center;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .search-input:focus,
+  .search-select:focus {
+    border-color: #009999;
+  }
+  
+  @media (min-width: 768px) {
+    .search-container {
+      flex-wrap: nowrap;
+    }
+  
+    .search-input,
+    .search-select {
+      margin: 0 10px 0 0;
+      flex: none;
+    }
+  }

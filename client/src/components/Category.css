@@ -1,0 +1,74 @@
+.category-manager {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #016565;
+    border-radius: 10px;
+    background-color: #1c1c1c;
+    box-shadow: 0 0 10px #016565;
+  }
+  
+  .category-manager h2 {
+    color: #eadd14;
+    margin-bottom: 20px;
+    font-weight: bolder;
+  }
+  
+  .category-manager input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #016565;
+    border-radius: 5px;
+    background-color: #312e2e;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .category-manager input[type="text"]:focus {
+    border-color: #009999;
+  }
+  
+  .category-manager button {
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #016565;
+    border-radius: 5px;
+    background-color: #016565;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .category-manager button:hover {
+    background-color: #018a8a;
+    border-color: #018a8a;
+  }
+  
+  .category-manager ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category-manager li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    border-bottom: 1px solid #016565;
+  }
+  
+  .category-manager li span {
+    flex: 1;
+    color: #fff;
+  }
+  
+  .category-manager li input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+  }
